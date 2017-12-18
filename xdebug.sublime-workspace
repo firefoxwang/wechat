@@ -1,0 +1,679 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"in_news_small.png\tw:4 h:7"
+			],
+			[
+				"37",
+				"35702.jpg\tw:220 h:178"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"r",
+				"roll_left.jpg\tw:30 h:56"
+			],
+			[
+				"dec",
+				"text-decoration"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/index/controller/Index.php",
+			"settings":
+			{
+				"buffer_size": 992,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "Xdebug Context",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "Xdebug Watch",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "Xdebug Stack",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "=> F:\\website\\wechat\\application\\command.php\n\t|+| 6\n=> F:\\website\\wechat\\application\\index\\controller\\Index.php\n\t|+| 8\n=> F:\\website\\wechat\\public\\index.php\n\t|+| 16\n",
+			"settings":
+			{
+				"buffer_size": 165,
+				"line_ending": "Windows",
+				"name": "Xdebug Breakpoint",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "Packages/User/php.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/php.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/php.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"sscs",
+				"Set Syntax: CSS3"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 213.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/F/website/wechat/application/command.php",
+		"/F/website/wechat/xdebug.sublime-project",
+		"/F/website/wechat/public/index.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Xdebug.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/php.sublime-build",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Installed Packages/DocBlockr.sublime-package",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/DocBlockr/Base File.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/F/website/wechat/build.php",
+		"/D/QQ数据/97404667/FileRecv/PHPstorm激活码.txt",
+		"/F/website/huido/public/.htaccess",
+		"/F/website/huido/public/static/admin/js/image.js",
+		"/F/website/huido/application/bis/view/deal/add.html",
+		"/F/website/huido/application/bis/view/location/add.html",
+		"/F/website/huido/application/bis/controller/Location.php",
+		"/F/website/huido/application/index/controller/Pay.php",
+		"/F/website/huido/application/api/controller/Order.php",
+		"/F/website/huido/application/index/view/pay/index.html",
+		"/F/website/huido/application/common/model/Order.php",
+		"/F/website/huido/application/index/controller/Order.php",
+		"/F/website/huido/application/index/view/order/confirm.html",
+		"/E/WORKSTATION/PHP开发源码/tp5/application/database.php",
+		"/E/WORKSTATION/PHP开发源码/tp5/huihui.txt",
+		"/C/Users/Administrator/Desktop/huido/后端html代码/h-ui开源代码/change-password.html",
+		"/F/website/huido/application/index/controller/Weixinpay.php",
+		"/F/website/huido/public/weixin/example/native.php",
+		"/F/website/huido/public/weixin/example/WxPay.NativePay.php",
+		"/F/website/huido/extend/wxpay/WxPayNotify.php",
+		"/F/website/huido/extend/wxpay/WxPayException.php",
+		"/F/website/huido/extend/wxpay/WxPayData.php",
+		"/F/website/huido/extend/wxpay/WxPayConfig.php",
+		"/F/website/huido/extend/wxpay/WxPayNativePay.php",
+		"/F/website/huido/extend/wxpay/WxPayApi.php",
+		"/F/website/huido/extend/weixin/lib/WxPay.Data.php",
+		"/F/website/huido/application/index/view/detail/index.html",
+		"/F/website/huido/application/common.php",
+		"/F/website/huido/sql/do.sql",
+		"/F/website/huido/application/index/controller/Detail.php",
+		"/F/website/huido/application/index/view/lists/index.html",
+		"/F/website/huido/application/common/model/Deal.php",
+		"/F/website/huido/application/index/controller/Lists.php",
+		"/F/website/huido/application/index/controller/Base.php",
+		"/F/website/huido/application/index/controller/Map.php",
+		"/F/website/huido/application/common/model/BisLocation.php",
+		"/F/website/huido/extend/map/Map.php",
+		"/F/website/huido/application/index/view/public/head.html",
+		"/F/website/huido/application/index/view/index/index.html",
+		"/F/website/huido/application/common/model/Category.php",
+		"/F/website/huido/application/index/controller/Index.php",
+		"/F/website/huido/application/common/model/Featured.php",
+		"/E/wamp/www/application/admin/controller/Featured.php",
+		"/E/wamp/www/application/index/controller/Index.php",
+		"/E/wamp/www/application/common/model/Category.php",
+		"/E/wamp/www/application/.htaccess",
+		"/E/wamp/www/application/config.php",
+		"/E/wamp/www/application/index/view/user/login.html",
+		"/E/wamp/www/application/common/model/User.php",
+		"/E/wamp/www/application/common/model/BaseModel.php",
+		"/E/wamp/www/application/index/controller/User.php",
+		"/E/wamp/www/application/index/view/public/head.html",
+		"/E/wamp/www/application/admin/controller/Index.php",
+		"/E/wamp/www/application/index/view/user/register.html",
+		"/E/wamp/www/application/bis/controller/Register.php",
+		"/E/wamp/www/application/admin/view/featured/index.html",
+		"/E/wamp/www/application/admin/controller/Base.php",
+		"/E/wamp/www/vendor/topthink/think-captcha/src/helper.php",
+		"/E/wamp/www/application/admin/view/category/index.html",
+		"/E/wamp/www/application/extra/featured.php",
+		"/E/wamp/www/application/admin/view/deal/index.html",
+		"/E/wamp/www/application/common/model/Featured.php",
+		"/E/wamp/www/application/admin/view/featured/add.html",
+		"/E/wamp/www/application/admin/controller/Deal.php",
+		"/E/wamp/www/application/bis/view/register/index.html",
+		"/E/wamp/www/public/static/admin/js/image.js",
+		"/E/wamp/www/application/bis/view/location/add.html",
+		"/E/wamp/www/application/bis/controller/Location.php",
+		"/E/wamp/www/application/admin/view/public/menu.html",
+		"/E/wamp/www/application/admin/view/public/footer.html",
+		"/E/wamp/www/application/admin/view/public/header.html",
+		"/E/wamp/www/application/admin/view/bis/detail.html",
+		"/E/wamp/www/application/common/model/Deal.php",
+		"/E/wamp/www/application/common/model/City.php",
+		"/E/wamp/www/application/bis/controller/Deal.php",
+		"/E/wamp/www/application/bis/view/deal/index.html",
+		"/E/wamp/www/application/bis/controller/Login.php",
+		"/E/wamp/www/application/common/model/BisLocation.php",
+		"/E/wamp/www/public/static/admin/js/common.js",
+		"/E/wamp/www/application/bis/view/deal/add.html",
+		"/E/wamp/www/application/bis/controller/Base.php",
+		"/E/wamp/www/application/bis/controller/Index.php",
+		"/E/wamp/www/application/admin/view/bis/apply.html",
+		"/E/wamp/www/application/admin/controller/Bis.php",
+		"/E/wamp/www/application/bis/common.php",
+		"/E/wamp/www/application/bis/view/location/index.html",
+		"/E/wamp/www/application/common/validate/Bis.php",
+		"/E/wamp/www/application/common.php",
+		"/E/wamp/www/thinkphp/tpl/dispatch_jump.tpl",
+		"/C/Users/Administrator/Desktop/test.html",
+		"/E/wamp/www/application/common/controller/Index.php",
+		"/E/wamp/www/temp/application/database.php",
+		"/E/wamp/www/application/database.php",
+		"/E/wamp/www/application/bis/view/index/index.html",
+		"/E/wamp/www/application/common/model/BisAccount.php",
+		"/E/wamp/www/application/bis/view/login/index.html",
+		"/E/wamp/www/application/admin/common.php",
+		"/E/wamp/www/application/admin/validate/Bis.php",
+		"/E/wamp/www/application/admin/controller/Category.php",
+		"/E/wamp/www/application/admin/view/bis/dellist.html",
+		"/E/wamp/www/application/admin/view/bis/index.html",
+		"/E/wamp/www/application/admin/view/bis/detail.ph",
+		"/E/wamp/www/application/common/model/Bis.php",
+		"/E/wamp/www/application/bis/view/register/waiting.html",
+		"/E/wamp/www/thinkphp/library/traits/controller/Jump.php",
+		"/C/Users/Administrator/Desktop/huido/其他/jiaoben868/css/loading4.css",
+		"/C/Users/Administrator/Desktop/huido/其他/jiaoben868/index.html",
+		"/E/wamp/www/UE/dialogs/image/image.css",
+		"/E/wamp/www/thinkphp/library/think/File.php",
+		"/E/wamp/www/thinkphp/library/think/Request.php",
+		"/E/wamp/www/application/extra/map.php",
+		"/E/wamp/www/extend/map/Map.php",
+		"/C/Users/Administrator/Desktop/新建文本文档.txt",
+		"/E/wamp/apps/phpmyadmin4.1.14/config.inc.php",
+		"/E/wamp/apps/phpmyadmin4.1.14/libraries/server_databases.lib.php",
+		"/E/wamp/apps/phpmyadmin4.1.14/libraries/db_info.inc.php",
+		"/E/wamp/apps/phpmyadmin4.1.14/libraries/Config.class.php",
+		"/E/wamp/apps/phpmyadmin4.1.14/setup/frames/servers.inc.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"}\n"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/index/controller/Index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 992,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								431,
+								431
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "F:\\website\\wechat",
+							"incomplete_sync": null,
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "F:\\website\\wechat",
+							"incomplete_sync": null,
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "F:\\website\\wechat",
+							"incomplete_sync": null,
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								165
+							]
+						],
+						"settings":
+						{
+							"default_dir": "F:\\website\\wechat",
+							"incomplete_sync": null,
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.7,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 174.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 154.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 142.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "xdebug.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"r",
+				"style\\reset.css"
+			],
+			[
+				"m",
+				"css\\main.css"
+			],
+			[
+				"t",
+				"1-24\\css\\test.html"
+			],
+			[
+				"w",
+				"1-24\\work.html"
+			],
+			[
+				"i",
+				"1-24\\css\\index.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 2,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"14":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"15":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"24":
+				{
+					"group": 0,
+					"index": 2
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 236.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
