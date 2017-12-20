@@ -2,6 +2,7 @@
 namespace app\api\model;
 use think\Model;
 use think\Exception;
+use think\Db;
 
 class Banner extends Model
 {
@@ -12,13 +13,8 @@ class Banner extends Model
 	 * @author xiaodo 2017-12-17
 	 */
 	public static function getBannerByID($id){
-
-		// try{
-		// 	1/0;
-		// }catch(Exception $es){
-		// 	throw $ex;
-		// // }
-		// return 'this is banner info';
-		return null;
+		$res=DB::query('select * from banner_item where banner_id=?',[$id]);
+		
+		return $res;
 	}
 }

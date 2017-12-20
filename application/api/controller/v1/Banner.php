@@ -18,17 +18,10 @@ class Banner{
 		
 		$banner=model('Banner')->getBannerByID($id);
 
-		// $array=[
-		// 	'error_code'=>10001,
-		// 	'msg'=>$ex->getMessage()
-		// ];
-		// return json($array,400);
 		if(!$banner){
 			throw new BannerMissException();
 		}
-	
-		return $banner;
-	
+		return json($banner);
 
 
 		

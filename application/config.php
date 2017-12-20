@@ -166,7 +166,8 @@ return [
 
     'log'                    => [
         // 日志记录方式，内置 file socket 支持扩展
-        'type'  => 'File',
+//        'type'  => 'File',
+        'type'  => 'test',
         // 日志保存目录
         'path'  => LOG_PATH,
         // 日志记录级别
@@ -238,4 +239,6 @@ return [
         'var_page'  => 'page',
         'list_rows' => 15,
     ],
+    //接口调试混合模式
+    'api_debug'=>'true',
 ];

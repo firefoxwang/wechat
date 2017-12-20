@@ -1,30 +1,10 @@
 ---------------------------------------------------------------
-[ 2017-12-18T21:11:37+08:00 ] 127.0.0.1 GET /wechat/public/banner/10
-[ info ] hh.cn/wechat/public/banner/10 [运行时间：0.030056s][吞吐率：33.27req/s] [内存消耗：2,618.31kb] [文件加载：45]
-[ info ] [ LANG ] F:\website\wechat\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'api',
-    1 => 'v1.Banner',
-    2 => 'getBanner',
-  ),
-  'convert' => false,
-)
-[ info ] [ HEADER ] array (
-  'cache-control' => 'no-cache',
-  'postman-token' => 'a478a3a8-5345-4633-b240-1ce18809b38a',
-  'user-agent' => 'PostmanRuntime/7.1.1',
-  'accept' => '*/*',
-  'host' => 'hh.cn',
-  'accept-encoding' => 'gzip, deflate',
-  'connection' => 'keep-alive',
-)
-[ info ] [ PARAM ] array (
-  'id' => '10',
-)
-[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\website\wechat\application\api\controller\v1\Banner.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ LOG ] INIT File
-[ error ] [404][F:\website\wechat\application\api\controller\v1\Banner.php:27]
+[ 2017-12-18T21:54:41+08:00 ] 127.0.0.1 GET /wechat/public/banner/10
+[ info ] hh.cn/wechat/public/banner/10 [运行时间：0.029004s][吞吐率：34.48req/s] [内存消耗：2,611.53kb] [文件加载：43]
+[ error ] [0]inner[F:\website\wechat\application\api\controller\v1\Banner.php:28]
+[ error ] inner
+---------------------------------------------------------------
+[ 2017-12-18T22:01:51+08:00 ] 127.0.0.1 GET /wechat/public/banner/10
+[ info ] hh.cn/wechat/public/banner/10 [运行时间：0.023778s][吞吐率：42.06req/s] [内存消耗：2,612.13kb] [文件加载：43]
+[ error ] [0]inner[F:\website\wechat\application\api\controller\v1\Banner.php:28]
+[ error ] inner
