@@ -12,9 +12,20 @@ class Banner extends Model
 	 * @return [type]     [description]
 	 * @author xiaodo 2017-12-17
 	 */
-	public static function getBannerByID($id){
-		$res=DB::query('select * from banner_item where banner_id=?',[$id]);
-		
+	public function getBannerByID($id){
+		$data=[
+			'banner_id'=>$id
+		];
+		// $res=Db::table('banner_item')->where($data)->select();
+		// echo $this->getLastSql();
+		// header("Content-type:text/html;code=utf-8");
+		// var_dump($res);exit;
+		$res=Db::table('banner_item')
+		->where(function($query) use ($id){
+			$query->where('banner_id','=',$id);
+
+		})
+		->select();
 		return $res;
 	}
 }

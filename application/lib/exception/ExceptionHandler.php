@@ -1,6 +1,6 @@
 <?php
 namespace app\lib\exception;
-use think\Execption;
+use think\Exception;
 use think\exception\Handle;
 use think\Request;
 use think\Log;
