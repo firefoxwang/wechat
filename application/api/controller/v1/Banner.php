@@ -19,13 +19,15 @@ class Banner{
 		// $banner=BannerModel::with('items')->find($id);	
 
 		$banner=model('Banner')->getBannerByID($id);
-		$banner->hidden(['delete_time','update_time']);
+		
 		// $data=$banner->toArray();
 		// unset($data['delete_time']);
 
 		if(!$banner){
 			throw new BannerMissException();
 		}
+		// echo config('setting.img_prefix');
+		// exit;
 		return json($banner);
 
 
