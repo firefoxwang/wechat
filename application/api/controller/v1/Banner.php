@@ -18,9 +18,10 @@ class Banner{
 		Validate('IDMustBePostiveInt')->doCheck();	
 		// $banner=BannerModel::with('items')->find($id);	
 
-		$banner=model('Banner')->with(['items','items.img'])->find($id);
-		// echo $this->getLastSql();exit;
-		// $banner=model('Banner')->getBannerByID($id);
+		$banner=model('Banner')->getBannerByID($id);
+		$banner->hidden(['delete_time','update_time']);
+		// $data=$banner->toArray();
+		// unset($data['delete_time']);
 
 		if(!$banner){
 			throw new BannerMissException();
