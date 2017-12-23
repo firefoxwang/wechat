@@ -3,6 +3,7 @@ namespace app\api\controller\v1;
 use think\Validate;
 use think\Exception;
 use app\lib\exception\BannerMissException;
+use app\api\model\Banner as BannerModel;
 // use app\api\validate\TestValidate;
 class Banner{
 	/**
@@ -14,9 +15,12 @@ class Banner{
 	 */
 	
 	public function getBanner($id){
-		Validate('IDMustBePostiveInt')->doCheck();
-		
-		$banner=model('Banner')->getBannerByID($id);
+		Validate('IDMustBePostiveInt')->doCheck();	
+		// $banner=BannerModel::with('items')->find($id);	
+
+		$banner=model('Banner')->with(['items','items.img'])->find($id);
+		// echo $this->getLastSql();exit;
+		// $banner=model('Banner')->getBannerByID($id);
 
 		if(!$banner){
 			throw new BannerMissException();

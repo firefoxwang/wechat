@@ -1,0 +1,241 @@
+---------------------------------------------------------------
+[ 2017-12-21T19:39:53+08:00 ] 0.0.0.0 GET /wechat/public/api/v1/ban
+[ info ] localhost/wechat/public/api/v1/ban [运行时间：0.044261s][吞吐率：22.59req/s] [内存消耗：1,211.35kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2017-12-21T19:40:15+08:00 ] 0.0.0.0 GET /wechat/public/a
+[ info ] localhost/wechat/public/a [运行时间：0.017295s][吞吐率：57.82req/s] [内存消耗：1,205.20kb] [文件加载：31]
+[ error ] module not exists:a
+---------------------------------------------------------------
+[ 2017-12-21T19:44:57+08:00 ] 0.0.0.0 GET /wechat/public/api/v1/banner/1
+[ info ] localhost/wechat/public/api/v1/banner/1 [运行时间：0.043755s][吞吐率：22.85req/s] [内存消耗：2,619.38kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010487s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004754s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  (  `banner_id` = 1 ) [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[ 2017-12-21T19:44:58+08:00 ] 0.0.0.0 GET /wechat/public/api/v1/banner/1
+[ info ] localhost/wechat/public/api/v1/banner/1 [运行时间：0.052085s][吞吐率：19.20req/s] [内存消耗：2,619.38kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010998s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.005441s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  (  `banner_id` = 1 ) [ RunTime:0.000421s ]
+---------------------------------------------------------------
+[ 2017-12-21T19:45:07+08:00 ] 0.0.0.0 GET /wechat/public/api/v1/banner/1
+[ info ] localhost/wechat/public/api/v1/banner/1 [运行时间：0.055533s][吞吐率：18.01req/s] [内存消耗：2,619.38kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010822s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004608s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  (  `banner_id` = 1 ) [ RunTime:0.000415s ]
+---------------------------------------------------------------
+[ 2017-12-21T19:45:19+08:00 ] 0.0.0.0 GET /wechat/public/api/v1/banner/1
+[ info ] localhost/wechat/public/api/v1/banner/1 [运行时间：0.054332s][吞吐率：18.41req/s] [内存消耗：2,619.38kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011811s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004516s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  (  `banner_id` = 1 ) [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[ 2017-12-21T20:12:35+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.039881s][吞吐率：25.07req/s] [内存消耗：2,618.52kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001998s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.005427s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  (  `banner_id` = 1 ) [ RunTime:0.000459s ]
+---------------------------------------------------------------
+[ 2017-12-21T20:12:47+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.042853s][吞吐率：23.34req/s] [内存消耗：2,612.59kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010764s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004549s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000337s ]
+---------------------------------------------------------------
+[ 2017-12-21T20:17:08+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.044160s][吞吐率：22.64req/s] [内存消耗：2,618.88kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010655s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004705s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  (  `banner_id` = 1 ) [ RunTime:0.000455s ]
+---------------------------------------------------------------
+[ 2017-12-21T20:17:43+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.047908s][吞吐率：20.87req/s] [内存消耗：2,612.95kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010670s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004900s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2017-12-21T20:22:07+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.045533s][吞吐率：21.96req/s] [内存消耗：2,618.52kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010693s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.005251s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  (  `banner_id` = 1 ) [ RunTime:0.000529s ]
+---------------------------------------------------------------
+[ 2017-12-21T20:29:22+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.048229s][吞吐率：20.73req/s] [内存消耗：2,614.23kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010546s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004734s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[ 2017-12-21T20:29:39+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.035238s][吞吐率：28.38req/s] [内存消耗：2,618.59kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001325s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004923s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  (  `banner_id` = 1 ) [ RunTime:0.000565s ]
+---------------------------------------------------------------
+[ 2017-12-21T20:29:39+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.030682s][吞吐率：32.59req/s] [内存消耗：2,618.59kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001356s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004739s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  (  `banner_id` = 1 ) [ RunTime:0.000465s ]
+---------------------------------------------------------------
+[ 2017-12-21T20:50:42+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.048473s][吞吐率：20.63req/s] [内存消耗：2,609.50kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012143s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.005095s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 [ RunTime:0.000447s ]
+---------------------------------------------------------------
+[ 2017-12-21T20:51:09+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.036389s][吞吐率：27.48req/s] [内存消耗：2,684.03kb] [文件加载：46]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Champ 'banner_id' inconnu dans where clause[F:\website\wechat\thinkphp\library\think\db\Connection.php:388]
+[ error ] SQLSTATE[42S22]: Column not found: 1054 Champ 'banner_id' inconnu dans where clause
+---------------------------------------------------------------
+[ 2017-12-21T22:03:54+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.028354s][吞吐率：35.27req/s] [内存消耗：2,614.82kb] [文件加载：43]
+[ error ] [0]method not exist:think\db\Query->items[F:\website\wechat\thinkphp\library\think\db\Query.php:94]
+[ error ] method not exist:think\db\Query->items
+---------------------------------------------------------------
+[ 2017-12-21T22:03:55+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.031495s][吞吐率：31.75req/s] [内存消耗：2,614.82kb] [文件加载：43]
+[ error ] [0]method not exist:think\db\Query->items[F:\website\wechat\thinkphp\library\think\db\Query.php:94]
+[ error ] method not exist:think\db\Query->items
+---------------------------------------------------------------
+[ 2017-12-21T22:03:55+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.032342s][吞吐率：30.92req/s] [内存消耗：2,614.82kb] [文件加载：43]
+[ error ] [0]method not exist:think\db\Query->items[F:\website\wechat\thinkphp\library\think\db\Query.php:94]
+[ error ] method not exist:think\db\Query->items
+---------------------------------------------------------------
+[ 2017-12-21T22:04:17+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.043903s][吞吐率：22.78req/s] [内存消耗：2,609.52kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011024s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.005070s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000447s ]
+---------------------------------------------------------------
+[ 2017-12-21T22:05:48+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.019687s][吞吐率：50.80req/s] [内存消耗：1,445.91kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:06:04+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.029128s][吞吐率：34.33req/s] [内存消耗：1,446.23kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:06:36+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.078438s][吞吐率：12.75req/s] [内存消耗：1,446.41kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:06:37+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.021529s][吞吐率：46.45req/s] [内存消耗：1,446.36kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:06:54+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.033940s][吞吐率：29.46req/s] [内存消耗：1,446.41kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:06:54+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.023275s][吞吐率：42.96req/s] [内存消耗：1,446.41kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:06:55+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.041754s][吞吐率：23.95req/s] [内存消耗：1,446.41kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:06:55+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.040804s][吞吐率：24.51req/s] [内存消耗：1,446.41kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:06:55+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.023857s][吞吐率：41.92req/s] [内存消耗：1,446.41kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:06:56+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.023719s][吞吐率：42.16req/s] [内存消耗：1,446.41kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:06:56+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.040040s][吞吐率：24.98req/s] [内存消耗：1,446.41kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:06:57+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.045737s][吞吐率：21.86req/s] [内存消耗：1,446.41kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:06:57+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.017712s][吞吐率：56.46req/s] [内存消耗：1,446.41kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:06:58+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.041670s][吞吐率：24.00req/s] [内存消耗：1,446.41kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:06:58+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.034826s][吞吐率：28.71req/s] [内存消耗：1,446.41kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:06:59+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.017053s][吞吐率：58.64req/s] [内存消耗：1,446.41kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:07:00+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.022799s][吞吐率：43.86req/s] [内存消耗：1,446.41kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:07:00+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.042482s][吞吐率：23.54req/s] [内存消耗：1,446.41kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:07:00+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.025453s][吞吐率：39.29req/s] [内存消耗：1,446.41kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:07:00+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.022605s][吞吐率：44.24req/s] [内存消耗：1,446.41kb] [文件加载：36]
+[ error ] [1]Class 'api\model\Banner' not found[F:\website\wechat\application\api\controller\v1\Banner.php:19]
+[ error ] Class 'api\model\Banner' not found
+---------------------------------------------------------------
+[ 2017-12-21T22:07:33+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.024413s][吞吐率：40.96req/s] [内存消耗：2,615.35kb] [文件加载：43]
+[ error ] [0]method not exist:think\db\Query->items[F:\website\wechat\thinkphp\library\think\db\Query.php:94]
+[ error ] method not exist:think\db\Query->items
+---------------------------------------------------------------
+[ 2017-12-21T22:07:44+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.163053s][吞吐率：6.13req/s] [内存消耗：2,717.71kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011629s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.014292s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001619s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.023216s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001634s ]
+---------------------------------------------------------------
+[ 2017-12-21T22:09:10+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.047263s][吞吐率：21.16req/s] [内存消耗：2,715.32kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001345s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.005246s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.005061s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000445s ]
+---------------------------------------------------------------
+[ 2017-12-21T22:10:08+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.072401s][吞吐率：13.81req/s] [内存消耗：2,715.81kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011593s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004732s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004712s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000352s ]

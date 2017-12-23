@@ -6,6 +6,15 @@ use think\Db;
 
 class Banner extends Model
 {
+	protected $table='';
+	/**
+	 * [关联模型 关联item]
+	 * @return [type] [description]
+	 * @author liangguangchuan 2017-12-21
+	 */
+	public function items(){
+		return $this->hasMany('BannerItem','banner_id','id');
+	}
 	/**
 	 * [getBannerByID description]
 	 * @param  [type] $id [description]

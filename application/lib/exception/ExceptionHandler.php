@@ -17,10 +17,10 @@ class ExceptionHandler extends Handle{
 			$this->msg=$e->msg;
 			$this->errorCode=$e->errorCode;
 		}else{
-			if(config('api_debug')){
-				return parent::render($e);
+			// if(config('api_debug')){
+			// 	return parent::render($e);
 
-			}
+			// }
 			$this->code=500;
 			$this->msg='server is wrong,not your bussiness';
 			$this->errorCode=999;
