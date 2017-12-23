@@ -431,3 +431,129 @@
 [ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000331s ]
 [ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.007626s ]
 [ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000456s ]
+---------------------------------------------------------------
+[ 2017-12-23T10:03:32+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.060610s][吞吐率：16.50req/s] [内存消耗：2,843.67kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001091s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004489s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004483s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.009386s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000478s ]
+---------------------------------------------------------------
+[ 2017-12-23T10:03:33+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.067304s][吞吐率：14.86req/s] [内存消耗：2,843.67kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010268s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004816s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.008429s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005427s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000534s ]
+---------------------------------------------------------------
+[ 2017-12-23T10:03:46+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.049063s][吞吐率：20.38req/s] [内存消耗：2,843.67kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001259s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.005900s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004234s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004534s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000433s ]
+---------------------------------------------------------------
+[ 2017-12-23T10:03:47+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.048620s][吞吐率：20.57req/s] [内存消耗：2,843.67kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000926s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004507s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004070s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004586s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000536s ]
+---------------------------------------------------------------
+[ 2017-12-23T10:03:55+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.065871s][吞吐率：15.18req/s] [内存消耗：2,911.06kb] [文件加载：52]
+[ error ] [8]未定义变量: ata[F:\website\wechat\application\api\model\Image.php:12]
+[ error ] Undefined variable: ata
+---------------------------------------------------------------
+[ 2017-12-23T10:20:07+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.062114s][吞吐率：16.10req/s] [内存消耗：2,869.88kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011013s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.005137s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004291s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004382s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000434s ]
+---------------------------------------------------------------
+[ 2017-12-23T10:20:10+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.059909s][吞吐率：16.69req/s] [内存消耗：2,869.88kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009954s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004469s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004179s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005395s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000472s ]
+---------------------------------------------------------------
+[ 2017-12-23T10:21:08+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.059475s][吞吐率：16.81req/s] [内存消耗：2,871.48kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010493s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004593s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004800s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004282s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000469s ]
+---------------------------------------------------------------
+[ 2017-12-23T10:21:10+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.046411s][吞吐率：21.55req/s] [内存消耗：2,871.48kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000904s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004217s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004242s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004250s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2017-12-23T10:21:35+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.051540s][吞吐率：19.40req/s] [内存消耗：2,871.35kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000902s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004680s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004233s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005216s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2017-12-23T10:23:05+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.062027s][吞吐率：16.12req/s] [内存消耗：2,875.13kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010265s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004967s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004666s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004304s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[ 2017-12-23T10:23:06+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.048212s][吞吐率：20.74req/s] [内存消耗：2,875.13kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000898s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004493s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004160s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004209s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000367s ]

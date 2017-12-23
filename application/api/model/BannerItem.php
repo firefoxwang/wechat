@@ -4,7 +4,7 @@ use think\Model;
 use think\Exception;
 use think\Db;
 
-class BannerItem extends Model
+class BannerItem extends BaseModel
 {
 	protected $hidden=['update_time','delete_time','id','img_id','banner_id'];
 	public function img(){

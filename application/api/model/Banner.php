@@ -4,7 +4,7 @@ use think\Model;
 use think\Exception;
 use think\Db;
 
-class Banner extends Model
+class Banner extends BaseModel
 {
 	protected $table='';
 	protected $hidden=['update_time','delete_time'];
