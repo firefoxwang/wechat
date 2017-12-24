@@ -664,3 +664,479 @@
 [ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000316s ]
 [ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005279s ]
 [ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000947s ]
+---------------------------------------------------------------
+[ 2017-12-23T13:40:16+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.064442s][吞吐率：15.52req/s] [内存消耗：1,210.84kb] [文件加载：33]
+[ error ] [0]类不存在:app\common\model\IDCollection[F:\website\wechat\thinkphp\library\think\Loader.php:437]
+[ error ] class not exists:app\common\model\IDCollection
+---------------------------------------------------------------
+[ 2017-12-23T13:40:52+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.015926s][吞吐率：62.79req/s] [内存消耗：1,210.84kb] [文件加载：33]
+[ error ] [0]类不存在:app\common\model\IDCollection[F:\website\wechat\thinkphp\library\think\Loader.php:437]
+[ error ] class not exists:app\common\model\IDCollection
+---------------------------------------------------------------
+[ 2017-12-23T14:07:52+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/banner/1
+[ info ] hh.cn/wechat/public/api/v1/banner/1 [运行时间：0.062750s][吞吐率：15.94req/s] [内存消耗：2,878.36kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009916s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.005007s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004884s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004401s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000455s ]
+---------------------------------------------------------------
+[ 2017-12-23T14:18:33+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme?ids=1,2,3
+[ info ] hh.cn/wechat/public/api/v1/theme?ids=1,2,3 [运行时间：0.046613s][吞吐率：21.45req/s] [内存消耗：2,783.20kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000917s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004469s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000501s ]
+---------------------------------------------------------------
+[ 2017-12-23T14:20:29+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme?ids=1,2,3
+[ info ] hh.cn/wechat/public/api/v1/theme?ids=1,2,3 [运行时间：0.042143s][吞吐率：23.73req/s] [内存消耗：2,789.30kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005537s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004693s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000322s ]
+---------------------------------------------------------------
+[ 2017-12-23T14:23:14+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme?ids=1,2,3
+[ info ] hh.cn/wechat/public/api/v1/theme?ids=1,2,3 [运行时间：0.048507s][吞吐率：20.62req/s] [内存消耗：2,788.88kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000982s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.006100s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004870s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000437s ]
+---------------------------------------------------------------
+[ 2017-12-23T14:24:09+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme?ids=1,2,3
+[ info ] hh.cn/wechat/public/api/v1/theme?ids=1,2,3 [运行时间：0.057422s][吞吐率：17.41req/s] [内存消耗：2,789.30kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010657s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005442s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004914s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[ 2017-12-23T14:32:20+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme?ids=1,2,3
+[ info ] hh.cn/wechat/public/api/v1/theme?ids=1,2,3 [运行时间：0.059922s][吞吐率：16.69req/s] [内存消耗：2,789.30kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011686s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005370s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004669s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2017-12-23T14:32:41+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme?ids=5000,4000
+[ info ] hh.cn/wechat/public/api/v1/theme?ids=5000,4000 [运行时间：0.036862s][吞吐率：27.13req/s] [内存消耗：2,778.15kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001263s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005375s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (5000,4000) [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2017-12-23T14:33:08+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme?ids=1,2
+[ info ] hh.cn/wechat/public/api/v1/theme?ids=1,2 [运行时间：0.044892s][吞吐率：22.28req/s] [内存消耗：2,788.48kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000956s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.004720s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004722s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17) [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50) [ RunTime:0.000429s ]
+---------------------------------------------------------------
+[ 2017-12-23T14:34:28+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme?ids=1,2
+[ info ] hh.cn/wechat/public/api/v1/theme?ids=1,2 [运行时间：0.042778s][吞吐率：23.38req/s] [内存消耗：2,788.89kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000917s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005083s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004537s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17) [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50) [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2017-12-23T14:34:45+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme?ids=15000
+[ info ] hh.cn/wechat/public/api/v1/theme?ids=15000 [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：2,777.89kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011960s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.004910s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (15000) [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[ 2017-12-23T15:08:23+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.070231s][吞吐率：14.24req/s] [内存消耗：2,990.62kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010912s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.004773s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.004427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004576s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004656s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000281s ]
+---------------------------------------------------------------
+[ 2017-12-23T15:08:46+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.065100s][吞吐率：15.36req/s] [内存消耗：3,003.57kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009909s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.004880s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.004360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004774s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005516s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000234s ]
+---------------------------------------------------------------
+[ 2017-12-23T15:29:16+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.075252s][吞吐率：13.29req/s] [内存消耗：3,004.09kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010548s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005839s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.006116s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004989s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005458s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[ 2017-12-23T15:31:29+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.072181s][吞吐率：13.85req/s] [内存消耗：3,053.73kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009917s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.004554s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.004202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004810s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005560s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000468s ]
+---------------------------------------------------------------
+[ 2017-12-23T15:32:02+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.064389s][吞吐率：15.53req/s] [内存消耗：3,053.77kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001077s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005702s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.007448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005960s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004529s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000347s ]
+---------------------------------------------------------------
+[ 2017-12-23T15:32:16+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.067738s][吞吐率：14.76req/s] [内存消耗：3,004.09kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010367s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.004867s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.004795s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004485s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005355s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[ 2017-12-23T15:32:17+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.071070s][吞吐率：14.07req/s] [内存消耗：3,004.09kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010592s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.004795s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.004479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004310s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004447s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000220s ]
+---------------------------------------------------------------
+[ 2017-12-23T15:32:20+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.054283s][吞吐率：18.42req/s] [内存消耗：3,004.09kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000904s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.004369s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.004443s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004657s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004770s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2017-12-23T15:33:19+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.052777s][吞吐率：18.95req/s] [内存消耗：2,917.01kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001116s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005064s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.004493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005183s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000544s ]
+---------------------------------------------------------------
+[ 2017-12-23T15:33:19+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.056499s][吞吐率：17.70req/s] [内存消耗：2,917.01kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000867s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.004723s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.004835s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005425s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:20:20+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.062746s][吞吐率：15.94req/s] [内存消耗：2,917.01kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000992s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005014s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.006405s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005056s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000419s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:25:24+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.064668s][吞吐率：15.46req/s] [内存消耗：2,916.99kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001103s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.004667s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.006110s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004811s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000420s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:25:25+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.070758s][吞吐率：14.13req/s] [内存消耗：2,916.99kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000899s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.007222s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.006338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.008582s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000503s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:25:44+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.065050s][吞吐率：15.37req/s] [内存消耗：2,916.92kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001378s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.007321s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.005043s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005638s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.001038s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000466s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:25:50+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.057517s][吞吐率：17.39req/s] [内存消耗：2,916.92kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001213s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005218s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.006466s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006319s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000440s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:25:51+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.074811s][吞吐率：13.37req/s] [内存消耗：2,916.92kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001516s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.007048s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.005226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006491s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.001601s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000603s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:26:22+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.066370s][吞吐率：15.07req/s] [内存消耗：2,916.75kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002029s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005965s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.006197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005415s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:26:24+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.067063s][吞吐率：14.91req/s] [内存消耗：2,916.75kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001315s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.008370s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.004979s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005849s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:26:41+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.068951s][吞吐率：14.50req/s] [内存消耗：2,916.75kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000917s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.006335s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.005836s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005688s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000745s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:27:05+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.063866s][吞吐率：15.66req/s] [内存消耗：2,917.01kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001099s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.007074s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.005742s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005074s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000505s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:27:06+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.055775s][吞吐率：17.93req/s] [内存消耗：2,917.01kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001147s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005520s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.006070s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004872s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:27:08+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.055336s][吞吐率：18.07req/s] [内存消耗：2,917.01kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000925s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.006698s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.004598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005376s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000560s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:27:23+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.066954s][吞吐率：14.94req/s] [内存消耗：2,917.01kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001320s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005790s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.008513s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004830s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000729s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:27:48+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.109363s][吞吐率：9.14req/s] [内存消耗：3,053.77kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001969s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.010539s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.007472s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.009096s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.008547s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:28:07+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.083430s][吞吐率：11.99req/s] [内存消耗：3,004.09kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002605s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.008723s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.006746s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.008843s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.007478s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000310s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:31:31+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.069776s][吞吐率：14.33req/s] [内存消耗：3,004.09kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002121s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.007148s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.004777s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005599s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004924s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:32:01+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.065035s][吞吐率：15.38req/s] [内存消耗：2,839.16kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001161s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006070s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.006635s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001127s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` = 1 [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.010212s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:32:46+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.057307s][吞吐率：17.45req/s] [内存消耗：2,838.98kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001084s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.007249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.004915s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1) [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.006143s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16) [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49) [ RunTime:0.000437s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:33:52+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.062057s][吞吐率：16.11req/s] [内存消耗：2,839.41kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000983s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.004682s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3,4,5) LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` = 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005807s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:34:23+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.058587s][吞吐率：17.07req/s] [内存消耗：2,839.14kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001277s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.007321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005476s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` = 2 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.006150s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 17 [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 50 [ RunTime:0.000334s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:34:47+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.058397s][吞吐率：17.12req/s] [内存消耗：2,840.84kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001160s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.008422s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005266s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2,3) [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005331s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000521s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:35:18+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.054105s][吞吐率：18.48req/s] [内存消耗：2,839.16kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001527s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.004936s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` = 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005430s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[ 2017-12-23T18:35:57+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/theme/1
+[ info ] hh.cn/wechat/public/api/v1/theme/1 [运行时间：0.072250s][吞吐率：13.84req/s] [内存消耗：3,004.09kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001025s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.006745s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.006888s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005431s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005735s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000258s ]

@@ -23,7 +23,7 @@ class Banner{
 		// $data=$banner->toArray();
 		// unset($data['delete_time']);
 
-		if(!$banner){
+		if($banner->isEmpty()){
 			throw new BannerMissException();
 		}
 		// echo config('setting.img_prefix');
