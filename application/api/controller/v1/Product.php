@@ -16,5 +16,14 @@ class Product
 		return $products;
 
 	}
-	
+	public function getAllInCategory($id){
+		validate('IDMustBePostiveInt')->docheck();
+		$products=model('Product')->getProductByCategoryID($id);
+		if($products->isEmpty()){
+			throw new ProductException();
+		}
+		return $products;
+
+
+	}
 }

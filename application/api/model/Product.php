@@ -18,4 +18,11 @@ class Product extends BaseModel
 					->order('create_time desc')
 					->select();
 	}
+
+	public static function getProductByCategoryID($categoryID){
+		$products=self::where('category_id','=',$categoryID)
+				->select();
+		return $products;
+
+	}
 }

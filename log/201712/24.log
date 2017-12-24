@@ -151,3 +151,41 @@
 [ sql ] [ DB ] CONNECT:[ UseTime:0.001029s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
 [ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.006553s ]
 [ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (4,5) [ RunTime:0.000552s ]
+---------------------------------------------------------------
+[ 2017-12-24T11:37:03+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/category/all
+[ info ] hh.cn/wechat/public/api/v1/category/all [运行时间：0.058207s][吞吐率：17.18req/s] [内存消耗：2,633.64kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001653s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.005735s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005018s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.000469s ]
+---------------------------------------------------------------
+[ 2017-12-24T11:38:50+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/category/all
+[ info ] hh.cn/wechat/public/api/v1/category/all [运行时间：0.046231s][吞吐率：21.63req/s] [内存消耗：2,634.01kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001241s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.005488s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004859s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.000424s ]
+---------------------------------------------------------------
+[ 2017-12-24T11:41:04+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/category/all
+[ info ] hh.cn/wechat/public/api/v1/category/all [运行时间：0.048591s][吞吐率：20.58req/s] [内存消耗：2,634.59kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001144s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.005628s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005642s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2017-12-24T11:41:21+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/category/all/
+[ info ] hh.cn/wechat/public/api/v1/category/all/ [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：2,634.59kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001132s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.006021s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005813s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.000553s ]
+---------------------------------------------------------------
+[ 2017-12-24T12:22:43+08:00 ] 127.0.0.1 GET /wechat/public/api/v1/product/bycategory?id=3
+[ info ] hh.cn/wechat/public/api/v1/product/bycategory?id=3 [运行时间：0.043945s][吞吐率：22.76req/s] [内存消耗：2,730.59kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001818s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005067s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 3 [ RunTime:0.000488s ]
