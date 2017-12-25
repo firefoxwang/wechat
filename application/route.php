@@ -26,10 +26,17 @@ Route::get('api/:version/theme','api/:version.Theme/getSimpleList');
 Route::get('api/:version/theme/:id','api/:version.Theme/getComplexOne');
 //product商品
 
-Route::get('api/:version/product/bycategory','api/:version.Product/getAllInCategory');
-Route::get('api/:version/product/:id','api/:version.Product/getOne',[],['id'=>'\d+']);
-Route::get('api/:version/product/recent','api/:version.Product/getRecent');
+// Route::get('api/:version/product/bycategory','api/:version.Product/getAllInCategory');
+// Route::get('api/:version/product/:id','api/:version.Product/getOne',[],['id'=>'\d+']);
+// Route::get('api/:version/product/recent','api/:version.Product/getRecent');
+Route::group('api/:version/product',function(){
+					Route::get('/by_category','api/:version.Product/getAllInCategory');
+					Route::get('/:id','api/:version.Product/getOne',[],['id'=>'\d+']);
+					Route::get('/recent','api/:version.Product/getRecent');
+});
 
 Route::get('api/:version/category/all','api/:version.Category/getAllCategories');
 
 Route::post('api/:version/token/user','api/:version.Token/getToken');
+//地址
+Route::post('api/:version/address','api/:version.Address/createOrUpdateAddress');
