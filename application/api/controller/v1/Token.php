@@ -10,7 +10,7 @@ class Token
 		validate('TokenGet')->docheck();
 		$tk=new UserToken($code);
 		$token=$tk->get();
-		return $token;
+		return ['token'=>$token];
 
 	}
 	

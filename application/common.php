@@ -22,3 +22,14 @@ function curl_get($url,$httpCode=0){
 	curl_close($ch);
 	return $file_contents;
 }
+
+function getRandChars($length){
+	$str=null;
+	$strPol="ABCDEFGHIJKOPQRSTUVWXYZ0123456789abcdefghijkopqrstuvwxyz";
+	$max=strlen($strPol)-1;
+	for ($i=0; $i < $length; $i++) { 
+		# code...
+		$str.=$strPol[rand(0,$max)];
+	}
+	return $str;
+}

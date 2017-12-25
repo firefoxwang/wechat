@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2017-12-25T20:31:26+08:00 ] 127.0.0.1 POST /wechat/public/api/v1/token/user
+[ info ] hh.cn/wechat/public/api/v1/token/user [运行时间：0.291990s][吞吐率：3.42req/s] [内存消耗：2,780.34kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001796s ] mysql:host=127.0.0.1;port=3306;dbname=wechat;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006210s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'okDwV0RHbKD-mfbLA0gJaXCdr7LE' LIMIT 1 [ RunTime:0.000549s ]

@@ -26,4 +26,7 @@ class Product
 
 
 	}
+	public function getOne($id){
+		
+	}
 }
