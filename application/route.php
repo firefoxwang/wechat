@@ -25,9 +25,10 @@ Route::get('api/:version/banner/:id','api/:version.Banner/getBanner');
 Route::get('api/:version/theme','api/:version.Theme/getSimpleList');
 Route::get('api/:version/theme/:id','api/:version.Theme/getComplexOne');
 //product商品
-Route::get('api/:version/product/recent','api/:version.Product/getRecent');
+
 Route::get('api/:version/product/bycategory','api/:version.Product/getAllInCategory');
-Route::get('api/:version/product/:id','api/:version.Product/getOne');
+Route::get('api/:version/product/:id','api/:version.Product/getOne',[],['id'=>'\d+']);
+Route::get('api/:version/product/recent','api/:version.Product/getRecent');
 
 Route::get('api/:version/category/all','api/:version.Category/getAllCategories');
 

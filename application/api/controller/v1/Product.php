@@ -27,6 +27,11 @@ class Product
 
 	}
 	public function getOne($id){
-		
+		validate('IDMustBePostiveInt')->doCheck();
+		$product=model('Product')->getProductDetail($id);
+		if(empty($product)){
+			throw new ProductException();
+		}
+		return $product;
 	}
 }
