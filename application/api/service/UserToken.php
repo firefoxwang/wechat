@@ -46,7 +46,11 @@ class UserToken
 
 	private function grantToken($wxResult){
 		//拿到oppenid
-		$openid=$wxResult['openid'];
+		//数据库里对比一下是否存在openid
+		//如果存在，不处理，不存在，就插入记录
+		//生成令牌，存入缓存数据，吸入缓存
+		//吧令牌返回客户端
+		$openid=$wxResult['openid' ];
 	}
 
 
